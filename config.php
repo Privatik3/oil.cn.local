@@ -1,28 +1,28 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://oil.cn.ua/');
+define('HTTP_SERVER', 'http://oil.cn.local/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://oil.cn.ua/');
+define('HTTPS_SERVER', 'http://oil.cn.local/');
 
 // DIR
-define('DIR_APPLICATION', '/home/oil00/oil.cn.ua/www/catalog/');
-define('DIR_SYSTEM', '/home/oil00/oil.cn.ua/www/system/');
-define('DIR_LANGUAGE', '/home/oil00/oil.cn.ua/www/catalog/language/');
-define('DIR_TEMPLATE', '/home/oil00/oil.cn.ua/www/catalog/view/theme/');
-define('DIR_CONFIG', '/home/oil00/oil.cn.ua/www/system/config/');
-define('DIR_IMAGE', '/home/oil00/oil.cn.ua/www/image/');
-define('DIR_CACHE', '/home/oil00/oil.cn.ua/www/system/storage/cache/');
-define('DIR_DOWNLOAD', '/home/oil00/oil.cn.ua/www/system/storage/download/');
-define('DIR_LOGS', '/home/oil00/oil.cn.ua/www/system/storage/logs/');
-define('DIR_MODIFICATION', '/home/oil00/oil.cn.ua/www/system/storage/modification/');
-define('DIR_UPLOAD', '/home/oil00/oil.cn.ua/www/system/storage/upload/');
+define('DIR_APPLICATION', 'C:/ospanel/domains/oil.cn.local/catalog/');
+define('DIR_SYSTEM', 'C:/ospanel/domains/oil.cn.local/system/');
+define('DIR_LANGUAGE', 'C:/ospanel/domains/oil.cn.local/catalog/language/');
+define('DIR_TEMPLATE', 'C:/ospanel/domains/oil.cn.local/catalog/view/theme/');
+define('DIR_CONFIG', 'C:/ospanel/domains/oil.cn.local/system/config/');
+define('DIR_IMAGE', 'C:/ospanel/domains/oil.cn.local/image/');
+define('DIR_CACHE', 'C:/ospanel/domains/oil.cn.local/system/storage/cache/');
+define('DIR_DOWNLOAD', 'C:/ospanel/domains/oil.cn.local/system/storage/download/');
+define('DIR_LOGS', 'C:/ospanel/domains/oil.cn.local/system/storage/logs/');
+define('DIR_MODIFICATION', 'C:/ospanel/domains/oil.cn.local/system/storage/modification/');
+define('DIR_UPLOAD', 'C:/ospanel/domains/oil.cn.local/storage/upload/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'oil00.mysql.ukraine.com.ua');
-define('DB_USERNAME', 'oil00_db');
-define('DB_PASSWORD', 'LJNBgMQ6');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
 define('DB_DATABASE', 'oil00_db');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
