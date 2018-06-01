@@ -15,7 +15,7 @@
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
     <section class="sidebar-main">
-    <div style="background: #fff" id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
+    <div style="background: #fff" id="content" class="<?php echo $class; ?> col-sm-12 col-md-6" ><?php echo $content_top; ?>
       <div class="product-info">
         <?php if ($column_left || $column_right) { ?>
         <?php $class = 'col-md-8'; ?>
@@ -121,7 +121,7 @@
         <?php $class = 'col-sm-4'; ?>
         <?php } ?>
         <div class="<?php echo $class; ?>">
-          
+
           <h1><?php echo $heading_title; ?></h1>
           <ul class="list-unstyled">
             <?php if ($manufacturer) { ?>
@@ -163,7 +163,7 @@
           <?php } ?>
           <div id="product" class="product-extra ">
             <?php if ($options) { ?>
-           
+
             <h3><?php echo $text_option; ?></h3>
             <?php foreach ($options as $option) { ?>
             <?php if ($option['type'] == 'select') { ?>
