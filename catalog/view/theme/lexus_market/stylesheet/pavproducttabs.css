@@ -1,0 +1,43 @@
+.producttabs .tab-nav{
+	font-family: "kelson-sans",sans-serif;
+	border:none;	
+	margin-top: 20px;
+	overflow: hidden;
+}
+.producttabs .tab-nav .nav.nav-tabs{
+	border:none;
+}
+.producttabs .tab-nav  li a{
+	font-size: 18px;
+	color: #887d73;
+	padding: 0 10px;
+	line-height: 16px;
+	border-radius:0px;
+	border-color:  #544D45;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.producttabs .tab-nav li.active a{
+	color: #d9cba2;
+	font-weight: bold;
+	border:none;
+	border-left:1px solid #544D45;
+	font-weight: 700;
+}
+.producttabs .tab-nav li a:hover{
+	background: none;
+	color:#d9cba2;
+	border:none;
+	border-left:1px solid #544D45;
+}
+.producttabs .tab-nav li a.tab-first{
+	padding-left: 0;
+	border-left: 0;
+}
+.producttabs .tab-nav li a.tab-first:hover{
+	border-left: 0;
+}
+

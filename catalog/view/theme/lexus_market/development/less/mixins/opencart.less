@@ -1,0 +1,57 @@
+
+.border-exclude-top(@border-deep; @border-type ; @border-color ){
+	border-bottom: @border-deep @border-type @border-color ;
+    border-left: @border-deep @border-type @border-color ;
+    border-right: @border-deep @border-type @border-color ;
+
+}
+
+.border-exclude-bottom(@border-deep; @border-type ; @border-color ){
+	border-top: @border-deep @border-type @border-color ;
+    border-left: @border-deep @border-type @border-color ;
+    border-right: @border-deep @border-type @border-color ;
+
+}
+ 
+.rounded-corners (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.clearboxstyle(){
+  background: none;
+  border:none;
+}
+
+.arrow-border-no-top(@bwidth:7px; @bcolor:#FFF; @width:7px; @height:7px){
+  border-bottom: @bwidth solid @bcolor;
+  border-left: @bwidth - 1  solid transparent;
+  border-right: @bwidth - 1 solid transparent;
+  width: @width;
+  height : @height;
+}
+
+.gradient(@color: #F5F5F5, @start: #EEE, @stop: #FFF) {
+  background: @color;
+  background: -webkit-gradient(linear,left bottom,left top, color-stop(0, @start), color-stop(1, @stop));
+  background: -ms-linear-gradient(bottom, @start, @stop);
+  background: -moz-linear-gradient(center bottom, @start 0%, @stop 100%);
+  background: -o-linear-gradient(@stop, @start);
+}
+.gradient-ellipse(@color: #F5F5F5, @start: #EEE, @stop: #FFF)  {
+    background-color: @color;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSIwJSIgcj0iMTAwJSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZhZjAyMiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuMTUiLz48c3RvcCBzdG9wLWNvbG9yPSIjZWZjZTE0IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMC41NTM5OTk5OTk5OTk5OTk5Ii8+PC9yYWRpYWxHcmFkaWVudD48cmVjdCB4PSItNTAiIHk9Ii01MCIgd2lkdGg9IjEwMSIgaGVpZ2h0PSIxMDEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+    /* Android 2.3- hack (needed for the actual radial gradient) */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSIwJSIgcj0iMTAwJSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZhZjAyMiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuMTUiLz48c3RvcCBzdG9wLWNvbG9yPSIjZWZjZTE0IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMC41NTM5OTk5OTk5OTk5OTk5Ii8+PC9yYWRpYWxHcmFkaWVudD48cmVjdCB4PSItNTAiIHk9Ii01MCIgd2lkdGg9IjEwMSIgaGVpZ2h0PSIxMDEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+),
+        -webkit-gradient(radial, center top, 0, center top, 644,color-stop(0.10, @start),color-stop(0.554, @stop));
+    /* Android 2.3 */
+    background-image: -webkit-radial-gradient(center top, ellipse farthest-side,@start 10%,@stop 55.4%);
+    /* IE10+ */
+    background-image: radial-gradient(ellipse farthest-side at center top,@start 10%,@stop 55.4%);
+    background-image: -ms-radial-gradient(center top, ellipse farthest-side,@start 10%,@stop 55.4%);
+
+}

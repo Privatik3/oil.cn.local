@@ -1,0 +1,14 @@
+@media only screen and (max-width: 991px) {
+  .product-block .product-inner .image img {
+    width: auto;
+  }
+  .product-block .product-inner .product-hover span {
+    font-size:  - 4 !important;
+  }
+  .product-block .product-inner:hover {
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    margin-top: 0px;
+  }
+}

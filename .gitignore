@@ -1,0 +1,10 @@
+.idea
+/.gitattributes
+/.htaccess.htaccess
+/robots.txt
+/system/
+/ocmod/
+/catalog/view/theme/default/
+/admin/language/
+/catalog/language/
+/image/

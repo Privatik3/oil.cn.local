@@ -1,0 +1,136 @@
+#topbar{
+	#cart{
+		a.button{
+			color: @white;
+		}
+		.cart-title {
+			background-color: transparent;
+			.rounded-corners(0);
+			border-bottom: none;
+			i {
+				color: @red;
+			}
+		}
+		#cart-total {
+			background-color: transparent;
+			border-bottom: none;
+			.rounded-corners(0);
+			color:@black;
+			text-transform: uppercase;
+		}
+	}
+	a{
+		color: @black;
+	}
+	.welcome{
+		margin-right: 15px;
+	}
+	.show-mobile{
+		.quickaccess-toggle{
+			background: transparent;
+			&:hover{
+				background: transparent;
+				i{
+                    color: @gray-light;
+                }
+			}
+			i{
+				&.fa-cog, &.fa-user  {
+					color: @gray-light;
+				}
+
+            }
+		}
+	}
+} 
+#pav-mainnav {
+	.navbar ul.nav > li{
+		> a{
+			border: none;
+			.box-shadow(none);
+			padding: 22px;
+			&:hover{
+				color: @red;
+			}
+		}
+		&:hover{
+			> a{
+				background: transparent;
+			}
+		}
+		&:last-child > a{
+			border: none;
+			.box-shadow(none);
+		}
+	}
+	.dropdown .dropdown-menu{
+		background: @white;
+	}
+}
+#header{
+	.logo-store{
+		background: #444444;
+	}
+	#logo-theme a{
+		.size(102px,24px);
+	}
+}
+
+
+#search .input-group, #search_mobile .input-group{
+	background-color: transparent;
+	.rounded-corners(0);
+}
+#pav-verticalmenu{
+	.box-heading{
+		color: @white;
+	}
+} 
+.slideshow .tp-bullets.simplebullets.square-old .bullet.selected {
+    background: @red;
+	.size(8px,8px);
+	top: 0
+}	
+#footer{
+	background-color: #e6e6e6;
+}
+.addcart{
+	&:hover a {
+	    background: @red;
+	    border-bottom-color: @red;
+	}
+	 a{
+		background: #000;
+		border-bottom-color: transparent;
+		span,i{
+			color: @white;
+		}
+	}	
+}
+.button, input.button{
+	background-color: @black;
+	color: @white;
+	&:hover{
+		background-color: @red;
+		border-bottom-color: transparent;
+	}
+}
+input.button {
+    border-bottom: none;
+}
+a.button{
+	border-bottom-color:transparent;
+	.rounded-corners(3px);
+	padding: 9px 12px;
+}
+.slideshow .tp-caption .button{
+	color: @white;
+	padding: 10px 30px;
+}
+.carousel-controls .carousel-control:hover{
+	color: @white;
+}
+.newsletter .button{
+	background-color: @red;
+	line-height: 35px;
+}

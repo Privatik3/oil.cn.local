@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'kelson-sans';
+    src: url('../font/kelson_sans_light.eot');
+    src: url('../font/kelson_sans_light.eot?#iefix') format('embedded-opentype'),
+         url('../font/kelson_sans_light.woff') format('woff'),
+         url('../font/kelson_sans_light.ttf') format('truetype'),
+         url('../font/kelson_sans_light.svg#kelson_sanslight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kelson-sans';
+    src: url('../font/kelson_sans_regular.eot');
+    src: url('../font/kelson_sans_regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/kelson_sans_regular.woff') format('woff'),
+         url('../font/kelson_sans_regular.ttf') format('truetype'),
+         url('../font/kelson_sans_regular.svg#kelson_sansregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kelson-sans';
+    src: url('../font/kelson_sans_bold.eot');
+    src: url('../font/kelson_sans_bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/kelson_sans_bold.woff') format('woff'),
+         url('../font/kelson_sans_bold.ttf') format('truetype'),
+         url('../font/kelson_sans_bold.svg#kelson_sansbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rockwell';
+    src: url('../font/rock-webfont.eot');
+    src: url('../font/rock-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/rock-webfont.woff') format('woff'),
+         url('../font/rock-webfont.ttf') format('truetype'),
+         url('../font/rock-webfont.svg#rockwellregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rockwell';
+    src: url('../font/rockb-webfont.eot');
+    src: url('../font/rockb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/rockb-webfont.woff') format('woff'),
+         url('../font/rockb-webfont.ttf') format('truetype'),
+         url('../font/rockb-webfont.svg#rockwellbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+

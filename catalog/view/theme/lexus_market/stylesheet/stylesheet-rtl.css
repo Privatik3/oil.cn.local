@@ -1,0 +1,214 @@
+.navbar-header {
+  float: right;
+}
+.navbar-nav > li {
+  float: right;
+}
+.dropdown-menu {
+  left: inherit;
+  right: 0;
+  float: right;
+}
+#pav-mainnav .dropdown-menu li a:hover {
+  background-position: right -30px;
+}
+#pav-mainnav .dropdown .dropdown-menu:before {
+  right: 35px !important;
+}
+#pav-mainnav .megamenu .menu-icon {
+  background-position: right center !important;
+  padding-right: 30px;
+  padding-left: 0;
+}
+.box-services > .pull-left,
+#cart .pull-left,
+.media > .pull-left {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.product-block .product-inner:hover {
+  left: 20%;
+}
+.product-block .nozoom:hover {
+  box-shadow: 0 0 5px #8A8A8A;
+  left: 0;
+  margin-top: 0;
+  box-shadow: 5px;
+  width: 100%;
+  z-index: 999;
+  background-color: ;
+}
+.product-block .nozoom:hover .product-meta .product-hover {
+  top: 0;
+}
+.carousel-controls {
+  left: 19px;
+  right: inherit !important;
+}
+.producttabs .tab-nav .nav.nav-tabs {
+  float: right;
+}
+.box .box-heading span:before {
+  left: inherit;
+  right: 0;
+}
+.box .box-heading {
+  background-position: 100% center;
+}
+.sidebar .box.dark .box-heading:before {
+  left: inherit;
+}
+.sidebar .box .box-heading span:before {
+  border-left: 24px solid transparent;
+  border-right: 0;
+}
+#content h1:after {
+  left: inherit;
+  right: 0;
+}
+.htabs a {
+  float: right;
+}
+#search .button-search {
+  right: inherit;
+  left: 0;
+}
+#search input {
+  padding: 5px 10px 5px 30px;
+}
+.blog-meta ul {
+  text-align: left;
+}
+#header #cart .content {
+  right: inherit;
+  left: 0;
+}
+.pavblock .image {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.iconbox {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.iconbox i {
+  padding-right: 3px;
+  padding-left: 0;
+}
+.box-media .media p {
+  margin-right: 0;
+}
+#pav-mainnav .dropdown-menu li a {
+  background-position: right 10px;
+  padding: 3px 10px 3px 0;
+}
+ul.list > li > a {
+  background-position: right 3px;
+  padding-left: 0;
+}
+ul.list > li > a:hover,
+ul.list > li > a.active {
+  background-position: right -45px;
+}
+ul.list > li ul > li {
+  padding: 10px 25px 0 0;
+}
+.product-filter .display {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.product-filter .display span {
+  float: right !important;
+}
+.product-filter .sort,
+.product-filter .limit,
+.product-compare {
+  float: left;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.pav-custom.custom-service .service-wrap > div .service-body .icon {
+  float: right;
+}
+.accessories-wrapper .haschild ul li i {
+  top: 8px;
+  float: right;
+}
+.box.pavblog-latest .box-content .item .blog-item img {
+  margin-left: 10px;
+}
+#footer .footer-center .box-heading {
+  text-align: right;
+}
+.box.category .box-content ul.list > li a span {
+  float: left;
+}
+.product-block:hover .thumb_more_info {
+  right: auto;
+  left: -85px;
+}
+.product-block .product-meta .product-hover .box-button {
+  left: 115px;
+  right: auto;
+}
+.product-block:hover .product-meta .product-hover .box-button {
+  left: 0;
+  right: auto;
+}
+.product-block .price {
+  float: right;
+}
+.product-block .rating {
+  float: left;
+}
+#pav-verticalmenu #mainmenutop ul li .dropdown-menu {
+  right: 100%;
+  left: auto;
+}
+.verticalmenu .dropdown-toggle .caret {
+  left: 25px;
+  right: auto;
+}
+.verticalmenu .dropdown-toggle .caret {
+  right: auto !important;
+  left: 25px;
+}
+.verticalmenu .dropdown-toggle .caret:after {
+  border-right: 4px solid #000000;
+  border-left: none;
+}
+.carousel-control.right {
+  left: 0;
+  right: auto;
+}
+.carousel-control.left {
+  left: 34px;
+  right: auto;
+}
+.accessories-wrapper img {
+  margin-left: 10px;
+}
+.productcarousel.special .description {
+  float: left;
+}
+.product-block .product-meta .product-hover .box-button {
+  right: 0;
+  left: auto;
+}
+.productcarousel.special .product-block:hover .product-hover .box-button {
+  right: 30%;
+  left: auto;
+}
+.box.category .box-content ul.list > li a {
+  padding-left: 18px;
+}
+#outsite-right {
+  right: auto;
+  left: 10px;
+}
+.zoomWindow {
+  left: -410px !important;
+}

@@ -1,0 +1,215 @@
+// Global values
+// --------------------------------------------------
+
+// Variables
+// --------------------------------------------------
+@image-theme-path-base:'../../image/';
+@image-theme-path : '../../image/';
+@theme-image-path: @image-theme-path-base;
+// themes colors
+// -------------------------
+@brown:					#b39770;
+@browndark: 			#787364;
+@lightbrown:			#f6eee3;	
+@blue:                  #049cdb;
+@bluedark:              #0064cd;
+@light:                 #e7e7e7;
+@light-soft:            #e6e6e6;
+@yellow:                #f0d115;
+@yellow-dark:			#d0ad00;
+@yellow-soft:			#eecc13;
+@orange:                #f89406;
+@orange-soft:			#d9cba2;
+@pink:                  #c3325f;
+@purple:                #7a43b6;
+
+@white :			 	#FFFFFF;
+@black :				#000000;
+@black-soft :			#222222;
+@cyandark :   			#444444;
+@dark 	  :				#1d1916;
+@gray :					#888888;
+@gray-lighter:			#787364;
+@red :                  #d63d3d;
+@red-dark:              #d43b3b;
+//-----Text--------
+@link-hover-color: @yellow;
+
+//--------------------------------------------
+@theme-color-primary   : @yellow; 
+@theme-color-secondary : @browndark;  
+@theme-color-tertiary  : @orange-soft;
+
+@theme-color 			: @theme-color-primary;
+@theme-color-hover      : @theme-color-primary;
+@theme-bg-color-hover	: #333333;
+
+@theme-padding           : @line-height-computed - 2;
+@theme-margin            : @line-height-computed - 2;
+
+@btn-theme-primary       : @theme-color-primary ;
+@btn-theme-primary-hover : @theme-bg-color-hover ;
+@btn-theme-border-color  : #d0ad00;
+@btn-theme-color-hover	 : @theme-bg-color-hover;
+
+@text-primary-theme : @theme-color-primary;
+@text-danger-theme : @theme-color-secondary;
+
+@theme-border-color-primary: rgb(255, 255, 255,0.1); // border color on module
+@theme-border-color-second:	 rgb(0, 0, 0, 0.1); // border color on header, footer
+
+@theme-boder-page: @theme-border-color-primary;
+
+@icon-theme-bg		:#302B25;  //background icon
+
+//-----BORDER---------------------------------------
+@main-bd: 1px solid #cbcbcb;
+@second-bd: 1px solid #e6e6e6;
+
+/**
+ * Heading Page
+ */
+@heading-border            :  2px solid @theme-color-primary;
+@heading-hightlight-border :  2px solid @theme-color-primary;
+
+
+/* 
+ * product block
+ */
+@product-margin                     : @theme-padding + 2 ;
+@product-padding                    : @theme-margin + 2;
+@product-lineheight                 : 23px;
+@product-link-color  		        : @theme-color-secondary; 
+@product-name-font-size		        : @font-size-base;
+@product-name-color  		        : @black;
+@product-price-old-color 			: #999999;
+@product-price-color				: @red;
+@product-price-tax                  : #bbb;
+@product-action-color				: #888888;
+@product-action-link-color          : @white;
+@product-action-bg  		        : #F5F5F5;
+@product-action-border-color		: #E4E4E4;
+@product-cart-bg-hover              : #6f6f6f;
+@product-cart-border-color			: @yellow-dark;
+@product-cart-border-color-hover	: @cyandark;
+@product-action-hover-bg 	        : #333333;
+@product-label-special-color        : @red-dark;
+@product-detail-bg                  : #f8f8f8;
+@product-bd-color                  : #e8e8e8;
+
+
+
+
+/* buttons */
+@btn-wrap-border:   #CCC ;
+@btn-wrap-bg    : @white; 
+
+/* input */
+@input-bg:            #393939;
+/* 
+ * htab module 
+ */
+@htab-border-color 	     : @nav-tabs-border-color; 
+@htab-border 		     : @nav-tabs-border-color; 
+@htab-nav-padding	     : 7px 25px 7px 25px;
+@htab-nav-color		     : @gray;
+@htab-bg    		     : @white;
+@htab-bg-selected     	 : @theme-color-primary;
+@htab-nav-selected-color : #000000;
+/* 
+ * Mega Menu Module
+ */
+@megamenu-bg: @black; 
+@megamenu-border-color:#999;
+@megamenu-color: @black;
+
+
+/* 
+ * Pav verticlemenu Module
+ */
+@verticlemenu-bg: #edc912;
+@verticlemenu-color: #999999;
+@verticlemenu-color-hover: @theme-color-primary;
+
+
+/* 
+ * Box Modules 
+ */
+@box-module-margin	         : @line-height-computed - 14 ;
+@box-module-heading-border   : @theme-border-color-second;
+@box-module-heading-bg		 : @brown;
+@box-module-heading-padding  : @line-height-computed - 10 0 ;
+@box-module-heading-font     : @font-family-second;
+@box-module-heading-color    : @theme-color-tertiary;
+@box-module-heading-fontsize : @font-size-base + 4;
+@box-module-border-color     : @white;
+@box-module-content-bg       : #eee;
+@box-module-content-padding  : @theme-padding;
+@box-module-badge            : @theme-color;
+@box-module-text-light       : @black;
+ /* 
+  * LAYOUTS VAIRABLES 
+  */
+
+// topbar  
+@topbar-bg				: @dark; 
+@topbar-color			: #787364;
+@topbar-font-size  		: @font-size-base - 2;
+@topbar-link-color      : @white;
+@topbar-link-hover-color: @theme-color-secondary;
+@topbar-border-color	: @theme-border-color-primary;
+
+//header-main
+@header-main-bg				: @light; 
+@header-main-padding        : auto;
+@header-main-height 		: 115px;
+
+
+//Pav-mainnav
+@mainnav-bg				: @light; 
+@mainnav-wrap-bg		: @dark;
+
+//Offcanvas
+@offcanvas-bg           : @theme-color-primary;
+
+// footer position
+@footer-bg 				   : #efce14;
+@footer-color 			   : #787364;
+@footer-border-color	   : @theme-border-color-primary;
+@footer-heading-font-size  : @font-size-base;
+@footer-heading-color	   : @white;
+@footer-heading-boder-color: 2px solid transparent;
+@footer-link-color         : @footer-color;
+@footer-link-hover-color   : @theme-color-hover;
+@footer-padding            : @line-height-computed + 13;
+@footer-margin             : @line-height-computed + 13;
+
+//footer-top
+@footertop-bg 			: @footer-bg ;
+@footertop-link         : @footer-link-hover-color;
+@footertop-bd-color     : #d7b912; 
+
+//footer-bottom
+@footerbottom-color:    #999999; 
+
+// powered by
+@power-bg              : @black-soft;
+@power-text-color      : #000;
+@power-link-color      : @theme-color;
+@power-link-color-hover: @theme-color-hover;
+@power-padding         : 20px;
+@power-margin          : @footer-margin;
+@power-bd-color		   :#393939;
+
+//Category
+@category-bg                : #ffdb0f;
+@category-bg-hover          : #f2d00e;
+@category-bd				: @footertop-bd-color;
+
+//gradient
+
+@end-gradient: 			 @theme-color-primary;
+@color-gradient-ellipse: @theme-color-primary;
+@start-gradient: 		 #ecc711;
+@start-gradient-ellipse: #faf022;
+@end-gradient-ellipse:   #efce14;

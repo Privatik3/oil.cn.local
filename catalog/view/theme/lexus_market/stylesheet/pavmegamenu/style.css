@@ -1,0 +1,135 @@
+.pav-megamenu{
+	position: relative;	
+}
+
+ul.megamenu li.full-width {
+	position: static;
+}
+.pav-megamenu .dropdown-menu > .dropdown-menu-inner {
+  padding: 10px;
+}
+.pav-megamenu .mega-group .caret {
+  display: none;
+}
+.pav-megamenu .mega-group > .dropdown-toggle {
+  display: block;
+  font-weight: bold;
+  padding: 6px 5px;
+  text-transform: uppercase;
+  border-bottom: solid 1px #E5E5E5;
+}
+.pav-megamenu .mega-group .dropdown-mega .mega-col-inner > ul > li a {
+  margin-left: 6px;
+}
+.pav-megamenu .mega-col .mega-col-inner > ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.pav-megamenu .mega-col .mega-col-inner > ul > li {
+  list-style: none;
+  margin-left: 0;
+}
+.pav-megamenu .mega-col .mega-col-inner > ul > li > a {
+  clear: both;
+  color: #555555;
+  display: block;
+  line-height: 20px;
+}
+.pav-megamenu .dropdown-submenu:hover .dropdown-menu {
+  display: block;
+}
+.pav-megamenu .dropdown-submenu > .dropdown-menu {
+  border-radius: 0 6px 6px 6px;
+  left: 100%;
+  margin-left: -6px;
+  margin-top: -6px;
+  top: 0;
+ 
+}
+.megamenu .menu-icon{
+     background-position: left center !important;
+    display: block;
+    padding-left: 30px;
+  }
+
+.pav-megamenu .dropdown-menu .row {
+ 
+}
+
+.widget-product-list{
+  padding: 0px 10px ;
+}
+.widget-product-list .image{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.widget-product-list .image img{
+    border-bottom: 1px solid #e7e7e7;
+}
+.widget-html   img {
+	margin: 10px 0;
+}
+.widget-inner {
+	color: #999999;
+}
+.widget-banner {
+   border: 1px solid #e7e7e7;
+}
+.widget-banner .w-banner{
+ margin: 6px 10px; 
+	float: left;
+} 
+
+.pavo-widget .menu-title{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.w-product {
+   margin-bottom: 15px;
+}
+
+.w-product:last-child {
+   margin-bottom: 0;
+}
+
+.widget-product-list{
+  text-align: center;
+}
+
+.widget-product-list .name{
+  min-height: 66px;
+  border-bottom: 1px solid #666;
+}
+.widget-product-list .name a {
+  font-size:  14px;
+  color: #999999;
+}
+.widget-product-list .price {
+	font-size:  14px;
+	font-weight: bold;
+	color: #C83A3A;
+	padding: 10px 0px;
+}
+.widget-product-list .price-old {
+  text-decoration: line-through;
+  color: #292929;
+   font-size: 12px;
+}
+.widget-product-list .rating{
+  padding-bottom: 10px;
+  margin: 10px;
+}
+.widget-product-list .product-block .price:before {
+	border: none;
+}
+.hidden-title .menu-title{
+   display:  none;
+}
+
+.button-close-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+}

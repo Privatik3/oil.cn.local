@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+	<!-- config social -->
+	<social>
+		<title>Plugin Social</title>
+		<description></description>
+
+		<module>
+			<title>Twitter</title>
+			<field>
+				<label>Twitter WidgetID:</label>
+				<name>t_widgetid</name>
+				<type>text</type>
+				<color>0</color>
+				<lang>0</lang>
+				<default><![CDATA[366766896986591232]]></default>
+				<description><![CDATA[Please go to the page <a href="https://twitter.com/settings/widgets/new">https://twitter.com/settings/widgets/new</a>, then create a widget and get data-widget-id to input in this param.]]></description>
+			</field>
+			<field>
+				<label>UserName</label>
+				<name>t_username</name>
+				<type>text</type>
+				<color>0</color>
+				<lang>0</lang>
+				<default><![CDATA[pavothemes]]></default>
+			</field>
+			<field>
+				<label>Name Color</label>
+				<name>t_name</name>
+				<type>text</type>
+				<color>1</color>
+				<lang>0</lang>
+			</field>
+			<field>
+				<label>Title Color</label>
+				<name>t_title</name>
+				<type>text</type>
+				<color>1</color>
+				<lang>0</lang>
+			</field>
+			<field>
+				<label>Link Color</label>
+				<name>t_link</name>
+				<type>text</type>
+				<color>1</color>
+				<lang>0</lang>
+			</field>
+			<field>
+				<label>Border Color</label>
+				<name>t_border</name>
+				<type>text</type>
+				<color>1</color>
+				<lang>0</lang>
+			</field>
+			
+		</module>
+	</social>
+	<footer>
+		 <title>Footer Block</title>
+		 <description></description>
+		   <module>
+	 	 	<title>Paypal</title>
+	 	 	<field>
+	 	 		<name>widget_paypal</name>
+	 	 		<label>Paypal</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default> <![CDATA[
+					<img alt="" src="image/catalog/paypal.png" />
+	 	 		 ]]> </default>		
+	 		</field>
+	 	 </module>
+
+	</footer>	
+	
+</theme>
+
