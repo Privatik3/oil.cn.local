@@ -186,6 +186,7 @@ class ControllerModulePavproductcarousel extends Controller {
 
 			$products[] = array(
 				'product_id' => $result['product_id'],
+				'stock_status' => $result['stock_status'],
 				'thumb'   	 => $image,
 				'thumb2'   	 => isset($thumb2)?$thumb2:'',
 				'date_added'  => $result['date_added'],
