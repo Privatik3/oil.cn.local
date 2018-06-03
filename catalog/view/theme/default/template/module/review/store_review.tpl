@@ -1,10 +1,11 @@
 <?php echo $header; ?>
+<ul class="breadcrumb">
+    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+    <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+    <?php } ?>
+</ul>
     <div class="container bk">
-        <ul class="breadcrumb">
-            <?php foreach ($breadcrumbs as $breadcrumb) { ?>
-                <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
-            <?php } ?>
-        </ul>
+
         <div class="row"><?php echo $column_left; ?>
             <?php if ($column_left && $column_right) { ?>
                 <?php $class = 'col-sm-6'; ?>
@@ -19,6 +20,7 @@
                     <?php if ($review_status) { ?>
                         <div id="review"></div>
                         <?php if ($review_guest) { ?>
+                    <hr style="border-top: 1px solid #9a9a9a; padding-top: 20px; margin-bottom: 0!important;">
                             <h2><?php echo $text_write; ?></h2>
                             <div class="form-group required">
                                 <div class="col-sm-11">
@@ -37,10 +39,11 @@
                                 </div>
                             </div>
                             <div class="form-group required">
-                                <label class="control-label" style="padding-left: 15px;"><?php echo $entry_rating; ?></label>
+                                <label class="control-label col-md-1" style="padding-left: 15px;"><?php echo $entry_rating; ?></label>
+                                <label class="col-md-1" style="padding-left: 15px;padding-top: 5px;font-weight: bold;font-size: 19px;color: #b94a48">Плохо</label>
                                 <input type="hidden" id="rait-input" name="rating" value="1"/>
                                 &nbsp;&nbsp;&nbsp;
-                                <div class="col-sm-12  ">
+                                <div class="col-sm-3  " style="width: 255px;">
                                     <div class="rating-block" data-clicked="0">
                                     <div class="rating">
                                         <div class="star-item item-1 "  data-item="1"></div><!--
@@ -61,6 +64,7 @@
 
 
                                 </div>
+                                <label class="col-md-1" style="padding-top: 5px;font-weight: bold;font-size: 19px; color: #fcdc03;">Хорошо</label>
                             </div>
                             <?php if (isset($site_key) && $site_key) { ?>
                                 <div class="form-group">

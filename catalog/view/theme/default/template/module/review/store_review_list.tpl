@@ -3,6 +3,7 @@
   <?php foreach ($reviews as $review) { ?>
 
     <div class="col-md-12 review-item ">
+      <hr style="border-top: 1px solid #9a9a9a; padding-top: 20px; margin-bottom: 0!important;">
 
 
         <div class="col-xs-12 col-sm-12">  <?php
